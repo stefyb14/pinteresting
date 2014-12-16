@@ -1,7 +1,20 @@
-$body-bg:   #f1c40f; 
-$navbar-inverse-bg:    #16a085;
-$navbar-inverse-link-color:    white;
-$brand-primary:  #16a085;
-$jumbotron-heading-color: #2980b9;
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+
+$body-bg:   #ecf0f1; 
+$navbar-inverse-bg:    white;
+$navbar-inverse-link-color:    #e74c3c;
+$brand-primary:  #e74c3c;
+$jumbotron-heading-color: black;
+$jumbotron-bg:  white;
+$font-family-sans-serif: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-height:   40px; 
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
 
 @import 'bootstrap';
