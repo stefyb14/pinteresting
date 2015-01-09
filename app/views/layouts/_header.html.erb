@@ -17,7 +17,7 @@
         <li><%= link_to "Acerca de mí...", root_path%></li>
         <li><%= link_to "Acerca del sitio...", about_path%></li>
         <% if user_signed_in? %>
-          <li><%= link_to 'New Pin', new_pin_path %></li> 
+          <li><%= link_to raw('<span class="glyphicon glyphicon-plus"></span> New Pin'), new_pin_path %></li> 
             <li><%= link_to "Ajustes de tu cuenta", edit_user_registration_path %></li>
           <li><%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete %></li>
         <% else %>
